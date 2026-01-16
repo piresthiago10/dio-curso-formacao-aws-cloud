@@ -2,7 +2,9 @@
 # RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
 Data: 15/01/2026
+
 Empresa: Abstergo Industries
+
 Responsável: Thiago Santos Pires
 
 ## Introdução
@@ -43,4 +45,5 @@ A implementação dos serviços Amazon EC2, Amazon Aurora e AWS Lambda na empres
 Essas soluções permitem que a empresa concentre seus esforços no negócio principal — a distribuição farmacêutica — sem a complexidade da gestão de infraestrutura física. Recomenda-se a continuidade da utilização das ferramentas implementadas e a avaliação futura de novos serviços AWS, como monitoramento, segurança e análise de dados, para evolução contínua da arquitetura.
 
 Assinatura do Responsável pelo Projeto:
+
 Thiago Santos Pires
