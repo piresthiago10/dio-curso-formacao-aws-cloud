@@ -17,6 +17,7 @@ O projeto de implementação foi dividido em três etapas, cada uma contemplando
 
 **Etapa 1: Amazon EC2 (Elastic Compute Cloud)**
 **Foco da ferramenta:** Hospedagem e processamento de aplicações
+
 **Descrição do caso de uso:**
 O Amazon EC2 foi escolhido para hospedar o sistema principal da farmácia, incluindo aplicações de gestão de estoque, pedidos, fornecedores e distribuição. Com o EC2, a empresa elimina a necessidade de investir em servidores físicos, reduzindo custos com aquisição, manutenção e energia elétrica.
 
@@ -24,6 +25,7 @@ Além disso, o EC2 permite escalabilidade sob demanda, possibilitando aumentar o
 
 **Etapa 2: Amazon Aurora (RDS)**
 **Foco da ferramenta:** Banco de dados relacional gerenciado
+
 **Descrição do caso de uso:**
 O Amazon Aurora, serviço de banco de dados relacional compatível com MySQL e PostgreSQL, foi selecionado para armazenar dados críticos da operação, como produtos, lotes, clientes, fornecedores, pedidos e histórico de movimentações.
 
@@ -31,6 +33,7 @@ Por ser um serviço gerenciado, o Aurora reduz significativamente os custos e es
 
 **Etapa 3: AWS Lambda**
 **Foco da ferramenta:** Processamento serverless e automação
+
 **Descrição do caso de uso:**
 O AWS Lambda foi proposto para realizar processamentos automáticos e tarefas assíncronas, como:
 - Atualização automática de preços e estoques de fornecedores parceiros;
